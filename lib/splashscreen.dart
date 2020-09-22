@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:imageclassifier/home.dart';
+import 'package:fandvrecognizer/home.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 class MySplashScreen extends StatefulWidget {
@@ -12,7 +12,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 2,
-      // navigateAfterSeconds: Home(),
+      navigateAfterSeconds: Home(),
       title: Text(
         'Fruits and Vegetables Recognizer',
         style: TextStyle(
