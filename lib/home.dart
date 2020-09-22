@@ -36,8 +36,8 @@ class _HomeState extends State<Home> {
   }
 
   loadModel() async {
-    // return Tflite.loadModel(
-    //     model: 'assets/model.tflite', labels: 'assets/labels.txt');
+    return Tflite.loadModel(
+        model: 'assets/model.tflite', labels: 'assets/labels.txt');
   }
 
   pickImage() async {
